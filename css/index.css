@@ -1,0 +1,124 @@
+body {
+  display: flex;
+  justify-content: end;
+  background-color: #fff;
+}
+.about {
+  width: 1237px;
+  height: 783.085px;
+  flex-shrink: 0;
+}
+.user-img {
+  width: 535px;
+  height: 622px;
+  flex-shrink: 0;
+  position: absolute;
+  top: 46px;
+  right: 245px;
+}
+.about-Blog {
+  position: absolute;
+  top: 72px;
+  left: 305px;
+}
+ul {
+  display: inline-flex;
+  list-style: none;
+  margin-left: 25px;
+}
+.logotip {
+  position: absolute;
+  left: 174px;
+  top: 78px;
+}
+
+ul > li > a {
+  color: #7e7f86;
+  font-family: "Red Hat Display";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration: none;
+}
+ul > li > a:hover {
+  color: #25202f;
+  font-family: "Red Hat Display";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.menus {
+  width: 70px;
+  height: 70px;
+  fill: #ffaada;
+  position: absolute;
+  top: 70px;
+  right: 164px;
+  filter: drop-shadow(0px 20px 50px rgba(198, 185, 233, 0.3));
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.user-name > p {
+  color: #666;
+  font-family: "Red Hat Display";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+}
+.user-name > h1 {
+  color: #25202f;
+  font-family: "Red Hat Display";
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  margin-top: -12px;
+}
+.user-name {
+  position: absolute;
+  top: 228px;
+  left: 165px;
+}
+.user-branch {
+  color: #25202f;
+  font-family: "Red Hat Display";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  top: 358px;
+  left: 165px;
+}
+.Lets_Talk_btn {
+  width: 200px;
+  height: 60px;
+  flex-shrink: 0;
+  border-radius: 100px;
+  background: #8643dc;
+  color: #fff;
+  text-align: center;
+  font-family: "Red Hat Display";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border: none;
+  position: absolute;
+  top: 450px;
+  left: 165px;
+}
+.content {
+  width: 752.247px;
+  height: 750.085px;
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+  position: absolute;
+  top: 30px;
+  right: 50px;
+  opacity: 0.007;
+}
